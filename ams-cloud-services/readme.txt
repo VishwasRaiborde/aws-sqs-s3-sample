@@ -4,7 +4,7 @@ b) SQS messaging
 
 
 the code base is developed on spring boot and build tool is gradle
-by Mr Nikhil Vyas and vishwas 
+by vishwas raiborde
 
 steps to run the application 
 
@@ -20,4 +20,4 @@ steps to run the application
 
 
 note : AWS_SECRET_key and AWS_ACCESS_key needs to be set as environment variable
-       JMS_QUEUE = "OrderProcessorQueue" queue by this name should be present currenty this is not configurable
+       JMS_QUEUE = "MessageProcessorQueue" queue by this name should be present currenty this is not configurable
