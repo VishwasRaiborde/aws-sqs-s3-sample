@@ -17,6 +17,7 @@ public class AWSProperties {
 
 	private AWSProperties() {
 	}
+	
 
 	static {
 		s3properties = System.getProperties();
